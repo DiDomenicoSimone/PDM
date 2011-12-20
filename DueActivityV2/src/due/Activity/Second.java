@@ -48,7 +48,7 @@ public class Second extends Activity {
 	@Override
 	protected void onStart() {
 		super.onStart();
-		Log.d(TAG, "onRestart");
+		Log.d(TAG, "onStart");
 	}
 	
 	protected void onReStart() {
