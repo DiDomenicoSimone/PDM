@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <compilation>
+        <brano numero="1">
+            <titolo>When love takes over</titolo>
+            <autore>David Guetta</autore>
+            <genere>House</genere>
+        </brano>
+        <brano numero="2" >
+            <titolo>Every breath you take</titolo>
+            <autore>Sting</autore>
+            <genere>Pop Rock</genere>
+        </brano>
+        <brano numero="3" >
+            <titolo>Paradise</titolo>
+            <autore>Coldplay</autore>
+            <genere>Alternative Rock</genere>
+        </brano>
+        <brano numero="4" >
+            <titolo>We will rock you</titolo>
+            <autore>Queen</autore>
+            <genere>Rock</genere>
+        </brano>
+        <brano numero="5" >
+            <titolo>Imagine</titolo>
+            <autore>John Lennon</autore>
+            <genere>Rock</genere>
+        </brano>
+        
+	</compilation>
+    
+
+</LinearLayout>
