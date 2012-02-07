@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
 public class MyView extends View {
 
@@ -39,6 +40,7 @@ public class MyView extends View {
 				if (tx>x && tx> x+img.getWidth() & ty>y & ty> y + img.getHeight());
 				{
 					dragOn=true;
+					Toast.makeText(getContext(), "L'ImageView è stata cliccata ", Toast.LENGTH_LONG).show();
 				}
 				break;
 			
@@ -49,6 +51,7 @@ public class MyView extends View {
 				break;
 			case MotionEvent.ACTION_UP:
 				dragOn=false;
+				Toast.makeText(getContext(), "L'ImageView è stata rilasciata ", Toast.LENGTH_LONG).show();
 				break;
 		}
 		return true;
