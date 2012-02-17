@@ -7,7 +7,7 @@
     <uses-sdk android:minSdkVersion="8" />
 
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/ic_launcher"	
         android:label="@string/app_name" >
         <activity
             android:label="@string/app_name"
@@ -21,3 +21,18 @@
     </application>
 
 </manifest>
+
+<!-- Il manifest.xml, è un file scritto in xml e ogni applicazione android ne possiede uno,il compito di questo
+	 file, è quello di presentare l'applicazione in tutte le sue componenti, che sono activity,services,content provider e 
+	 broadcast receiver, al sistema operativo. Ogni activity che farà parte dell'applicazione, affinchè possa essere lanciata
+	 correttamente, è necessario sia registrata nel manifest, e analogamente per gli altri componenti dell'app. -->
+
+<!-- L'attributo andoroid:icon, permette di impostare l'icona dell'applicazione, e in questo caso si fa riferimento all'immagine
+	 contenuta nella cartella res/drawable e di nome ic_launcher-->
+
+<!-- L'attributo android:label permette di assegnare un'etichetta alla'applicazione, e in questo caso si prende il valore del campo
+     "app_name" presente nella cartella res/values nel file strings.xml -->
+     
+<!-- Gli intent-filter sono i filtri per specificare quali tipologie di intent l'applicazione può gestire,(gli intent sono messaggi che 
+	 specificano un'azione, lanciata dal sistema), in questo caso l'azione è quella di	soddisfare l'azione MAIN 
+  	(action android:name="android.intent.action.MAIN") della categoria LAUNCHER -->
