@@ -24,9 +24,9 @@
 
 </manifest>
 
-<!-- Affinchè questa applicazione possa gestire la visualizzazione delle immagini, è necessario registrare nel manifest
+<!-- Affinchè questa applicazione possa gestire la condivisione delle immagini, è necessario registrare nel manifest
 	 la possibilità di ricevere tale categoria di intent, e ciò si fa aggiungendo l'azione "SEND", la categoria dell'azione 
-	 "DEFAULT" e il tipo di dati da gestire cioè "image". In questo modo quando un'immagine deve essere visualizzata, e quindi 
-	 il sistema lancia un intent con azione "SEND",oltre al classico visualizzatore del sistema android, anche questa applicazione
-	 sarà in grado di riceverlo e gestirlo, e quindi di visualizzare l'immagine. Questo significa che all'utente, verrà 
-	 mostrato un menù, nel quale potrà scegliere l'applicazione con la quale visualizzare l'immagine. -->
+	 "DEFAULT" e il tipo di dati da gestire cioè "image". In questo modo quando un'immagine deve essere condivisa, e quindi 
+	 il sistema lancia un intent con azione "SEND",oltre al "messagging"  del sistema android, anche questa applicazione
+	 sarà in grado di riceverlo e gestirlo, e quindi di condividere(visualizzare) l'immagine. Questo significa che 
+	 all'utente, verrà mostrato un menù, nel quale potrà scegliere l'applicazione con la quale visualizzare l'immagine. -->
