@@ -14,10 +14,9 @@ public class Second extends Activity {
 		super.onCreate(savedInstanceState);
 		Log.d(TAG,"onCreate");
 		setContentView(R.layout.second);
-		TextView label = (TextView) findViewById(R.id.textView1);
-		String iltestoricevuto = getIntent().getExtras().getString(
-				"iltestonelbox");
-		label.setText(iltestoricevuto);
+		TextView label = (TextView) findViewById(R.id.textView1); 
+		String iltestoricevuto = getIntent().getExtras().getString("iltestonelbox"); //Tramite questi metodi,ritorna la stringa associata all'intent corrispondente al campo "iltestonelbox"
+		label.setText(iltestoricevuto);	//Aggiungo,tramite il metodo setText(), la stringa da visualizzare nella textview
 	}
 
 	@Override
@@ -57,3 +56,6 @@ public class Second extends Activity {
 	}
 	
 }
+
+/*Sovrascrivendo ciascun metodo della classe Activit, e inserendo in ognuno di questi un log, con il nome del metodo stesso,allora 
+  durante l'esecuzione dell'applicazione, sarà possibile visualizzare nel logcat le varie fasi del ciclo di vita di una activity*/
