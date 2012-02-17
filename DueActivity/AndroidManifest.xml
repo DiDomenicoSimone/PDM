@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- Viene registrata,tramite un nuovo tag, la seconda Activity aggiunta nell'applicazione
+        	e gli viene assegnato in nome,tramite l'attributo android:name=".Second"-->
+        
         <activity 
             android:name=".Second"></activity>
     </application>
