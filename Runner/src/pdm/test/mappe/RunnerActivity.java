@@ -135,13 +135,21 @@ public class RunnerActivity extends MapActivity {
 			if (stoEntrando) 
 			{
 				Toast.makeText(getApplicationContext(), "Benvenuto", Toast.LENGTH_SHORT).show();
+				r1.setColor(Color.GREEN);
+				r2.setColor(Color.GREEN);
+				r3.setColor(Color.GREEN);
+				r4.setColor(Color.GREEN);
 			}
 			else 
 			{
 				Toast.makeText(getApplicationContext(), "Arrivederci", Toast.LENGTH_SHORT).show();
+				r1.setColor(Color.GRAY);
+				r2.setColor(Color.GRAY);
+				r3.setColor(Color.GRAY);
+				r4.setColor(Color.GRAY);
 			}
 		}
-		
+	
 	}
 	
 }
